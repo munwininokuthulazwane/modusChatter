@@ -17,7 +17,11 @@ namespace modusChatter.Controllers
         [HttpPost]
         public ActionResult register(Register reg)
         {
-           
+            if (ModelState.IsValid)
+            {
+                
+
+            }
             return View();
         }
 
