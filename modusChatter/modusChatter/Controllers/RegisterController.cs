@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 using modusChatter.Models;
 
 namespace modusChatter.Controllers
@@ -25,11 +26,20 @@ namespace modusChatter.Controllers
             return View();
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpGet]
         public ActionResult login()
         {
             return View();
         }
+        public ActionResult Logout()
+        {
+
+            FormsAuthentication.SignOut();
+            return RedirectToAction("Index");
+
+        }
+     
     }
+    
 }
