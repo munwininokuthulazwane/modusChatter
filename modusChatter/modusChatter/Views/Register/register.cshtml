@@ -4,5 +4,50 @@
     ViewBag.Title = "register";
 }
 
-<h2>register</h2>
+@*<h2>
+    register
+</h2>*@
+<head>
+    <link rel="stylesheet" type="text/css" href="~/CSS/stylesheet.css">
+</head>
+
+
+    <div class="box">
+        <fieldset class="content">
+            @*<legend>Login Form</legend>*@
+            <div class="editor-label">@Html.LabelFor(u => u.userName)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.userName)
+                @Html.ValidationMessageFor(u => u.userName)
+            </div>
+            <div class="editor-label">@Html.LabelFor(u => u.Password)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.Password)
+                @Html.ValidationMessageFor(u => u.Password)
+            </div>
+            <div class="editor-label">@Html.LabelFor(u => u.fullname)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.fullname)
+                @Html.ValidationMessageFor(u => u.fullname)
+            </div>
+            <div class="editor-label">@Html.LabelFor(u => u.programmeTitle)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.programmeTitle)
+                @Html.ValidationMessageFor(u => u.programmeTitle)
+            </div>
+            <div class="editor-label">@Html.LabelFor(u => u.confirmPassword)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.confirmPassword)
+                @Html.ValidationMessageFor(u => u.confirmPassword)
+            </div>
+            <div class="editor-label">@Html.LabelFor(u => u.email)</div>
+            <div class="editor-field">
+                @Html.TextBoxFor(u => u.email)
+                @Html.ValidationMessageFor(u => u.email)
+            </div>
+
+            <input class="btn" type="submit" value="Sign In" />
+            </fieldset>
+            </div>
+          
 

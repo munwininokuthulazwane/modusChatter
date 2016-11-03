@@ -15,14 +15,14 @@ namespace modusChatter.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public ActionResult register(Register reg)
+        //[HttpPost]
+        public ActionResult register()
         {
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 
 
-            }
+            //}
             return View();
         }
 
