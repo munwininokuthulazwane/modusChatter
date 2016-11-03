@@ -30,11 +30,23 @@
                 @Html.TextBoxFor(u => u.fullname)
                 @Html.ValidationMessageFor(u => u.fullname)
             </div>
-            <div class="editor-label">@Html.LabelFor(u => u.programmeTitle)</div>
-            <div class="editor-field">
-                @Html.TextBoxFor(u => u.programmeTitle)
-                @Html.ValidationMessageFor(u => u.programmeTitle)
-            </div>
+
+            
+                @*<div class="editor-label">@Html.LabelFor(u => u.programmeTitle)</div>
+                <div class="editor-field">
+                    @Html.TextBoxFor(u => u.programmeTitle)
+                    @Html.ValidationMessageFor(u => u.programmeTitle)
+                </div>
+            <datalist id="programmelist">
+                <option label="editor-label" value="L5 system Development"></option>
+            </datalist>*@
+            @Html.DropDownList("Programme Title",new List<SelectListItem>
+            {
+               
+            };"System Development NQF L4"
+
+
+
             <div class="editor-label">@Html.LabelFor(u => u.confirmPassword)</div>
             <div class="editor-field">
                 @Html.TextBoxFor(u => u.confirmPassword)
