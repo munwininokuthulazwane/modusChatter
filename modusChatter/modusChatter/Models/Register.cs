@@ -5,6 +5,7 @@ using System.Web;
 using modusChatter.Controllers;
 using modusChatter.Models;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc.Html;
 
 namespace modusChatter.Models
 {
