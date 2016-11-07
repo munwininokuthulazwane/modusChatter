@@ -147,4 +147,19 @@ margin-left:120px;
     position:center;
     right:40px;
 }
+ p{
+ color:black;
+margin:0 auto;
+display: block;
+width: 250px;
+margin-top:-90px;
+margin-left:120px;
+}
+ .paragraph{
+     margin:0 auto;
+    display:block;
+    width:250px;
+    margin-top:-80px;
+    margin-right:120px;
 
+ }
