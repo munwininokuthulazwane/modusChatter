@@ -4,6 +4,17 @@
 }
 <head>
     <link rel="stylesheet" type="text/css" href="~/CSS/stylesheet.css">
+    <script>
+        function openloginPage()
+        {
+            window.open("http://localhost:52404/Register/login");
+        }
+
+        function openRegisterPage()
+        {
+            window.open("http://localhost:52404/Register/register")
+        }
+    </script>
 </head>
 
 
@@ -15,17 +26,17 @@
 
     <div class="left">
         <img src="~/imgs/iMAGE1.png" />
-        <input class="button_id" type="submit" value="Log In"/>
+      <input class="button_id" type="submit" value="Log In"  onclick="openloginPage()"> 
+       
+            <p> Already have an account </p>
 
-          <p> Already have an account </p>
 
 
-
-    </div>
+</div>
     
     <div class="right">
         <img src="~/imgs/IMAGE2.png" />
-        <input class="button_id_register" type="submit" value="Sign In" />
+        <input class="button_id_register" type="submit" value="Sign In" onclick="openRegisterPage()">
         <p class="paragraph"> Create an Account </p>
 
 
