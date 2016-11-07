@@ -116,14 +116,27 @@ display:inline-block;
     
 }
 .button_id{
-position: absolute; 
+/*position:relative;
 right: 5px; 
 top: 5px;
-bottom:20px; 
+bottom:20px;*/
 
+margin:0 auto;
+display: block;
+width: 250px;
+margin-top:-280px;
+margin-left:120px;
+
+
+
+
+/*padding-top:13px;
+ float: left; 
+ padding: 0px -40px -15px -10px 10px;;*/
 }
 .left{
     padding-left:100px;
+
 
 }
 .right{
