@@ -123,8 +123,11 @@
     <Content Include="CSS\stylesheet.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="imgs\connect-world.jpg" />
     <Content Include="imgs\iMAGE1.png" />
     <Content Include="imgs\IMAGE2.png" />
+    <Content Include="imgs\ImageConnect.jpg" />
+    <Content Include="imgs\ImageConnect2.jpg" />
     <Content Include="imgs\welcom.png" />
     <Content Include="imgs\welcome-big-screen-silver-wallpaper.png" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
