@@ -1,5 +1,5 @@
 ﻿body{
-  background:#161616;
+  background:lightgrey;
   color:#888;
  
   font-family: 'Ubuntu Mono', sans-serif;
@@ -114,5 +114,26 @@ display:inline-block;
  
     border:none;
     
+}
+.button_id{
+position: absolute; 
+right: 5px; 
+top: 5px;
+bottom:20px; 
+
+}
+.left{
+    padding-left:100px;
+
+}
+.right{
+ 
+ position:absolute;
+ right:50px;
+ top:220px;
+}
+.center{
+    position:center;
+    right:40px;
 }
 
