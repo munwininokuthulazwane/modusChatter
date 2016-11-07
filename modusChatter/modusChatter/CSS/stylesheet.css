@@ -91,21 +91,36 @@
   color:#333;
 }
 .editor-label {
-float: left;
+/*float: left;
 width: 200px;
 margin-bottom: 4px;
 margin-right: 50px;
+display:inline-block;*/
+
+/*adding the alignment of the textboxes and fileds*/
+width: 4em;
+
+float: left;
+
 text-align: left;
-display:inline-block;
+
+margin-right: 0.5em;
+
+display: block;
+
+    
+
 }
 
 .editor-field {
-float: right;
+float: right;;
 width: 300px;
 padding-right:100px;
 margin-bottom:10px;
 margin-left: 50px;
 display:inline-block;
+margin-top:-15px;
+padding-top:-16px;
 
 
 
